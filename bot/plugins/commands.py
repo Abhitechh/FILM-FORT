@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭\n\nനിങ്ങൾക് സിനിമകൾ വെന്നോ? അതിനായി അത്യം ങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യണം... 😁\n\nJoin ചെയതത്തിനു ശേഷം വീണ്ടും ബോട്ട് /start ആക്കൂ.😁</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/mallu_casino")]
+                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/joinchat/blc2-weZcacwNGQ1")]
               ])
             )
             return
@@ -55,7 +55,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/mallu_casino"
+                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/joinchat/blc2-weZcacwNGQ1"
                                 )
                         ]
                     ]
@@ -74,7 +74,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/mallu_casino"
+                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/joinchat/blc2-weZcacwNGQ1"
                                 )
                         ]
                     ]
@@ -93,7 +93,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/mallu_casino"
+                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/joinchat/blc2-weZcacwNGQ1"
                                 )
                         ]
                     ]
@@ -106,8 +106,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚠️ JOIN', url='https://t.me/mallu_casino'),
-        InlineKeyboardButton('🕵‍♂ CREATOR', url ='https://t.me/Silentkilleroff')
+        InlineKeyboardButton('⚠️ JOIN', url='https://t.me/joinchat/blc2-weZcacwNGQ1'),
+        InlineKeyboardButton('🕵‍♂ CREATOR', url ='https://t.me/SteveRogersCaptainn')
     ],[
         InlineKeyboardButton('💡 HELP', callback_data="help"),
         InlineKeyboardButton('🔐 CLOSE', callback_data="close")
@@ -117,7 +117,7 @@ async def start(bot, update):
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/bfba3dc1b505748c8dba5.jpg",
+        photo="https://telegra.ph/file/bbe782a498f4e3b98c8af.jpg",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
@@ -139,7 +139,7 @@ async def help(bot, update):
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/bfba3dc1b505748c8dba5.jpg",
+        photo="https://telegra.ph/file/bbe782a498f4e3b98c8af.jpg",
         caption=Translation.HELP_TEXT,
         reply_markup=reply_markup,
         parse_mode="html",
